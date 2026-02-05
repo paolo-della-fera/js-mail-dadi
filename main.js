@@ -29,7 +29,14 @@ if (emailFound) {
     console.log('Accesso consentito ✅');
 }
 
-//ALTRIMENTI se l'email insertita non è presente viene negato l'accesso
+// ALTRIMENTI se l'email insertita non è presente viene negato l'accesso
 else {
     console.log('Accesso negato ❌');
 }
+
+
+
+// GIOCO DEI DADI
+
+// inizio creando un array con tutte le facce del dado
+const dice = [1, 2, 3, 4, 5, 6];
