@@ -50,3 +50,19 @@ let computer = dice[parseInt(Math.random() * dice.length)];
 // stampo i numeri scelti dal pc e dal giocatore in console
 console.log("Giocatore: " + player);
 console.log("Computer: " + computer);
+
+// confronto i risultati e determino chi ha vinto
+// SE il giocatore ha ottenuto un numero maggiore del computer ha vinto
+if (player > computer) {
+    console.log('Hai Vinto! 🎉');
+}
+
+// ALTRIMENTI SE il computer ha ottenuto un numero maggiore del giocatore ha vinto
+else if (player < computer) {
+    console.log('Ha Vinto il Computer 💻');
+}
+
+// ALTRIMENTI se il numero è uguale la partita finisce in pareggio
+else {
+    console.log('Pareggio! 😁');
+}
