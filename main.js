@@ -39,4 +39,4 @@ else {
 // GIOCO DEI DADI
 
 // inizio creando un array con tutte le facce del dado
-const dice = [1, 2, 3, 4, 5, 6];
+let dice = [1, 2, 3, 4, 5, 6];
