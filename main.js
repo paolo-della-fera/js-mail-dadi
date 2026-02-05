@@ -46,3 +46,7 @@ let player = dice[parseInt(Math.random() * dice.length)];
 
 // numero casuale del computer 
 let computer = dice[parseInt(Math.random() * dice.length)];
+
+// stampo i numeri scelti dal pc e dal giocatore in console
+console.log("Giocatore: " + player);
+console.log("Computer: " + computer);
