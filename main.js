@@ -9,3 +9,6 @@ const emails = [
 
 // creo il prompt per far inserire l'email all'utente
 let email = (prompt('inserisci la tua email'))
+
+// mi creo una variabile dove salvare l'email se la troviamo nella lista
+let emailFound = false 
