@@ -40,3 +40,9 @@ else {
 
 // inizio creando un array con tutte le facce del dado
 let dice = [1, 2, 3, 4, 5, 6];
+
+// numero casuale del giocatore 
+let player = dice[parseInt(Math.random() * dice.length)];
+
+// numero casuale del computer 
+let computer = dice[parseInt(Math.random() * dice.length)];
