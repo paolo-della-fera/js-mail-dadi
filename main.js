@@ -6,3 +6,6 @@ const emails = [
     "anna.neri@fakepost.it",
     "paolo.gialli@demoemail.com"
 ]
+
+// creo il prompt per far inserire l'email all'utente
+let email = (prompt('inserisci la tua email'))
